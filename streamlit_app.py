@@ -6,6 +6,8 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 
+x = st.slider("select value")
+st.write(x, 'is sqare', x*x)
 
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
